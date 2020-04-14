@@ -1,5 +1,5 @@
 #!name=Ad Block
-#!desc=AD Block — Advertising & Anti-Hijacking
+#!desc=Rule-SET Module. — Advertising & Anti-Hijacking.
 
 [Rule]
 # > General
@@ -143,7 +143,6 @@ DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 
 # > Alibaba
-DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 # > AutoHome
 DOMAIN,adproxy.autohome.com.cn,REJECT
