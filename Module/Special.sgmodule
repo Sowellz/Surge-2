@@ -20,7 +20,7 @@ DOMAIN,analytics.strava.com,DIRECT
 DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
 
-# > Download
+# > Download For Surge Mac
 PROCESS-NAME,aria2c,DIRECT
 PROCESS-NAME,fdm,DIRECT
 PROCESS-NAME,Folx,DIRECT
@@ -40,7 +40,5 @@ URL-REGEX,(Subject|HELO|SMTP),DIRECT
 # > 迅雷
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
 DOMAIN-SUFFIX,xunlei.com,DIRECT
-# > 360
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com),DIRECT
 # > 百度
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com,DIRECT
